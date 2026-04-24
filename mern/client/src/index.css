@@ -50,7 +50,7 @@
   @media (max-width: 1024px) {
     font-size: 16px;
   }
-  
+    
 }
 
 #root {
@@ -112,4 +112,8 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--bg);
+}
+
+.footer-link td a:hover {
+    color: var(--text-acc);
 }
